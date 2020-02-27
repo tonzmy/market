@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color  name="colorTextTitle">#FFFFFF</color>
+    <color name="colorPrimary">#eeeeee</color>
+    <color name="colorPrimaryDark">#bcbcbc</color>
+    <color name="colorAccent">#102027</color>
+    <color name="colorMaterialCardView">#FFFFFF</color>
+    <color name="colorButtonStroke">#BDBDBD</color>
+    <color name="colorFragmentBackgroundColor">#FAFAFA</color>
+    <color name="colorWarning">#DD2C00</color>
+    <color name="colorUnselectedTab">#E0E0E0</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorPrice">#bf360c</color>
+    <color name="colorText">#37474f</color>
+    <color name="colorTextDark">#102027</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorStatus">#f57f17</color>
+    <color name="colorCancel">#546e7a</color>
+    <color  name="colorGreen300">#81c784</color>
+    <color name="colorBlue300">#64b5f6</color>
+    <color name="colorIndigo300">#7986cb</color>
+    <color name="colorPurple300">#9575cd</color>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_me_register"
+    android:name="com.example.market.ui.me.login.MeRegisterFragment"
+    android:label="Register"
+    tools:layout="@layout/fragment_me_register"
+    tools:ignore="UnusedNavigation" />

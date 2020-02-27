@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.market.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_product_detail"
+            app:destination="@id/navigation_product_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_category"
+        android:name="com.example.market.ui.category.CategoryFragment"
+        android:label="@string/title_category"
+        tools:layout="@layout/fragment_category" />
+
+    <fragment
+        android:id="@+id/navigation_shoppingcart"
+        android:name="com.example.market.ui.shoppingcart.ShoppingCartFragment"
+        android:label="@string/title_shoppingcart"
+        tools:layout="@layout/fragment_shoppingcart" />
+
+
+    <fragment
+        android:id="@+id/navigation_me"
+        android:name="com.example.market.ui.me.order.OrderFragment"
+        android:label="Order"
+        tools:layout="@layout/fragment_me_order">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_me_login"
+        android:name="com.example.market.ui.me.login.MeLoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_me_login">
+        <action
+            android:id="@+id/action_navigation_me_login_to_navigation_me_register"
+            app:destination="@id/navigation_me_register" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_me_register"
+        android:name="com.example.market.ui.me.register.MeRegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_me_register">
+        <action
+            android:id="@+id/action_navigation_me_register_to_navigation_me_login"
+            app:destination="@id/navigation_me_login" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_product_detail"
+        android:name="com.example.market.ui.product.ProductDetailFragment"
+        android:label="Detail"
+        tools:layout="@layout/fragment_product_detail"/>
+
+    <fragment
+        android:id="@+id/navigation_search_result"
+        android:name="com.example.market.ui.search.SearchResultFragment"
+        android:label="Result"
+        tools:layout="@layout/fragment_search_result"/>
+
+</navigation>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">market</string>
+    <string name="title_home">Home</string>
+    <string name="title_category">Category</string>
+    <string name="title_shoppingcart">Shopping Cart</string>
+    <string name="title_me">Me</string>
+    <string name="progressbar_loading">Loading...</string>
+    <string name="tab_all_order">All Order</string>
+    <string name="tab_pending_order">Pending Order</string>
+    <string name="tab_delivering_order">On Delivering</string>
+    <string name="tab_cancelled_order">Cancelled Order</string>
+    <string name="not_register_yet">This phone number has not been registered</string>
+    <string name="invalid_credentials">Wrong password</string>
+    <string name="success">success!</string>
+    <string name="network_issue">Network error, please try later</string>
+    <string name="has_been_register">This phone number has been registered</string>
+</resources>
